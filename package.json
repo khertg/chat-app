@@ -1,0 +1,27 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khertg/chat-app.git"
+  },
+  "author": "Khert Geverola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khertg/chat-app/issues"
+  },
+  "homepage": "https://github.com/khertg/chat-app#readme"
+}
